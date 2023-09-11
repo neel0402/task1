@@ -1,70 +1,62 @@
-let grandfather={
-    name:"nanubhai",
-    age:71,
-    son1:[
+let grandfather = {
+    name: "nanubhai",
+    age: 70,
+    child: [
         {
-            name:"prafulbhai",
-            age:45,
-            child1:
-            {
-                name:"bhavy",
-                age:18,
-                std: "bca running",
-            },
-            child2:
-            {
-                name:"dharmik",
-                age:15,
-                std: "10th",
-            },
-            vehicle:
-            {
-                model:"i20",
-                color:"red",
-                price:"10,00,000",
-            }
+            id: "001",
+            name: "prafulbhai",
+            age: 45,
+            child: [
+                {
+                    name: "bhavy",
+                    age: 18,
+                },
+                {
+                    name: "Dharmik",
+                    age: 15,
+                }],
+            vehicle: [
+                {
+                    model: "i20",
+                    color: "red"
+                }]
+        },
+        {
+            id: "002",
+            name: "Pareshbhai",
+            age: 45,
+            child: [
+                {
+                    name: "mansi",
+                    age: 22,
+                },
+                {
+                    name: "Neel",
+                    age: 19,
+                },
+                ],
+            vehicle: [
+                {
+                    model: "XUV 700",
+                    color: "purple"
+                }]
+        },
+        {
+            id: "003",
+            name: "Rajubhai",
+            age: 40,
+            child: [
+                {
+                    name: "Tulsi",
+                    age: 10,
+                },
+                ],
+            vehicle: [
+                {
+                    model: "i10 grand",
+                    color: "white"
+                }]
         },
     ],
-    son2:[
-        {
-            name:"pareshbhai",
-            age:43,
-            child1:
-            {
-                name:"mansi",
-                age:22,
-                job:"jwellary designer",
-            },
-            child2:
-            {
-                name:"neel",
-                age:19,
-                std:"bca running",
-            },
-            vehicle:
-            {
-                model:"XUV 700",
-                color:"dark blue",
-                price:"17,00,000",
-            }
-        },
-    ],
-    son3:[
-        {
-            name:"rajubhai",
-            age:41,
-            child1:
-            {
-                name:"tulsi",
-                age:10,
-                std:"senior k.g",
-            },
-            vehicle:
-            {
-                model:"i10 grand",
-                color:"white",
-                price:"6,00,000",
-            }
-        },
-    ],
+
 }
